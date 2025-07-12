@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: telegram-quiz-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: 7691172379:AAFH-jvRpv8lJ5nzbZM4-gE5QrsFc8QsgFQ
+        
